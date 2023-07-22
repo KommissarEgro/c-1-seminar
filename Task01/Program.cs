@@ -16,4 +16,3 @@ if (numberFirst == numberSecond * numberSecond) {
 else {
     Console.WriteLine("Число не является квадратом");
 }
-
