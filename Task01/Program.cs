@@ -10,9 +10,11 @@ Console.WriteLine("Напишите первое целое число: ");
 int numberFirst = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Напишите второе  целое число: ");
 int numberSecond = Convert.ToInt32(Console.ReadLine());
-if (numberFirst == numberSecond * numberSecond) {
+if (numberFirst == numberSecond * numberSecond)
+{
     Console.WriteLine("Число является квадратом");
 }
-else {
+else
+{
     Console.WriteLine("Число не является квадратом");
 }
